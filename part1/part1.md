@@ -11,14 +11,14 @@
 1. 3 because the for loop counts one more than the size of the prices array
 2. 150 because the last discounted price in the array is 300*0.5
 3. 150 because the rounded price of the last discounted price is the same
-4. Nothing because the discounted array is returned but not logged/printed
+4. [50, 100, 150] because each price in the array is discounted by half.
 5. Error because i is not defined outside the for loop
 6. Error because discountedPrice is not defined outside the for loop
 7. 150 because finalPrice's scope is the entire function
-8. Nothing because the discounted array is returned but not logged/printed
+8. [50, 100, 150] because each price in the array is discounted by half.
 9. Error because i is not defined outside the for loop
 10. 3 because it is the length of the prices array, which also doesnt change
-11. Nothing because the discounted array is returned but not logged/printed
+11. [50, 100, 150] because each price in the array is discounted by half.
 
 12. <ol type="A">
     <li>student&#46;name;</li>
@@ -53,6 +53,3 @@
 17. The result after caling modifyArray([1,2,3], doSomething) will be [2,4,6] because the callback function doubles every element in the passed array and adds it into the resulting array.
 18. [Q18](/part1/part1b-question18.js)
 19. 1, 4, 3, 2
-
-## Part 2:
-
